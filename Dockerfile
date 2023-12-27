@@ -15,6 +15,10 @@ COPY css/responsive.css .
 COPY css/style.css .
 COPY css/style.scss .
 COPY css/style.css.map .
+COPY js/bootstrap.js .
+COPY js/custom.js .
+COPY js/jquery-3.4.1.min.js .
+
 
 # Expose port 80
 EXPOSE 80
