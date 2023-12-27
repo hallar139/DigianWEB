@@ -6,7 +6,7 @@ WORKDIR /usr/share/nginx/html
 
 # Copy the HTML and CSS files to the working directory
 COPY index.html .
-#COPY style.css .
+COPY css/style.css .
 
 # Expose port 80
 EXPOSE 80
