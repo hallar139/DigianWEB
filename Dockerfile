@@ -9,7 +9,7 @@ COPY index.html .
 COPY contact.html .
 COPY about.html .
 COPY service.html .
-COPY bootstrap.css .
+# COPY bootstrap.css .
 COPY font-awesome.min.css .
 COPY responsive.css .
 COPY style.css .
