@@ -9,7 +9,12 @@ COPY index.html .
 COPY contact.html .
 COPY about.html .
 COPY service.html .
-COPY css/* .
+COPY bootstrap.css .
+COPY font-awesome.min.css .
+COPY responsive.css .
+COPY style.css .
+COPY style.scss .
+COPY style.css.map .
 
 # Expose port 80
 EXPOSE 80
